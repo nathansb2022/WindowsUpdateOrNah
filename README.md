@@ -10,7 +10,10 @@ Add your host IP and document you wish to parse Line 23. Also, the fake Windows 
 
 # Compile
 To compile on Windows 10, use the command below
+```Powershell
 c:\windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /t:exe /out:filename.exe .\windowsupdateornah.cs.txt
-
+```
 # Compile with icon
+```Powershell
 c:\windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /t:exe /win32icon:$env:USERPROFILE\Downloads\msu.ico /out:filename.exe .\windowsupdateornah.cs.txt
+```
